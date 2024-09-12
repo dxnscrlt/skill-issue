@@ -9,5 +9,3 @@ if c == "Y":
     print("Well done!")
 elif c == "N":
     print("Let's try that again!")
-else:
-    print("I didn't catch that. Could you give me a valid answer? (Y/N)")
