@@ -6,6 +6,6 @@ b = float(input("Enter the second addend:")
 print("You entered:", b, "\nThe sum is:", a+b)
 c = input("Is this correct? (Y/N)")
 if c == "Y":
-  print("Well done!")
+    print("Well done!")
 elif c == "N":
-  print("Let's try that again!")
+    print("Let's try that again!")
