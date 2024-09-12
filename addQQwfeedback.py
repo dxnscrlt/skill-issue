@@ -9,3 +9,4 @@ if c == "Y":
     print("Well done!")
 elif c == "N":
     print("Let's try that again!")
+#Pending Issue: no program response if c =/= Y or N
