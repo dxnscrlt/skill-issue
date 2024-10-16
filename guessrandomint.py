@@ -1,5 +1,6 @@
 #This program generates a guessing game, with optional conditions.
 import random
+print("Welcome to the Number Guessing Game! Let's get started.")
 
 #Setting the upper limit:
 lower = 0
