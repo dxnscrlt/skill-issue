@@ -35,9 +35,9 @@ while attempt <= 3:
                     print(f'{gnum} is too high.')
                 elif gnum < rnum:
                     print(f'{gnum} is too low.')
-            gnum = int(input(f'You guessed wrong! You have {3 - attempt} attempts left.\n'))
+            gnum = int(input(f'You guessed wrong! You have {3 - (attempt + 1)} attempts left.\n'))
             attempt += 1
-            if attempt == 3:
+            if attempt == 3 and rnum != gnum:
                 print(f'Game over.\nThe number is {rnum}')
                 break
         else:
