@@ -1,4 +1,4 @@
-#Running Sum and Average
+#This program generates a running sum and average of integers.
 sum = 0
 count = 0
 breaker = ''
